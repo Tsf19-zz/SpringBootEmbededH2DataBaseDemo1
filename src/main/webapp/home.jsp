@@ -10,8 +10,8 @@
 	Inside Home.jsp
 
 	<form action="addAlien">
-		<input type="text" name="alienId">
-		<input type="text" name="alienName">
+		alienId<input type="text" name="alienId"> <br/>
+		alienName<input type="text" name="alienName">
 		<input type="submit">
 	</form>
 

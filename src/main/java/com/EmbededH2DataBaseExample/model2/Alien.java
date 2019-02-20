@@ -1,10 +1,12 @@
-package com.EmbededH2DataBaseExample.demo1;
+package com.EmbededH2DataBaseExample.model2;
 
-import org.springframework.stereotype.Component;
+import javax.persistence.Entity;
+import javax.persistence.Id;
 
-@Component
+@Entity
 public class Alien {
 	
+	@Id
 	private int alienId;
 	private String alienName;
 	
@@ -36,3 +38,4 @@ public class Alien {
 	}
 	
 }
+
